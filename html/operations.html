@@ -24,9 +24,7 @@
     <link rel="stylesheet" href="../css/icofont.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <!-- Medipro CSS -->
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -81,6 +79,7 @@
     <!-- End Header Area -->
     <!-- page content -->
     <div class="page-content">
+        <!-- right side include menu for move between website pages -->
         <div class="right-side">
             <div class="avatar d-flex justify-content-start align-items-center">
                 <div class="img ml-3">
@@ -101,14 +100,16 @@
                 </ul>
             </div>
         </div>
+        <!-- left side include page content -->
         <div class="left-side">
+            <!-- page header include title and search button  -->
             <div class="d-flex justify-content-between mb-5">
                 <h3 class="title mb-0">جدول العمليات</h3>
                 <button type="button" class="btn" data-toggle="modal" data-target="#searchOperation">
                     بحث
                 </button>
             </div>
-            <!-- Modal -->
+            <!-- Modal for searching in table -->
             <div class="modal fade" id="searchOperation" tabindex="-1" role="dialog"
                 aria-labelledby="searchOperationTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -160,6 +161,7 @@
                     </div>
                 </div>
             </div>
+            <!-- operations table  -->
             <div class="operation-table">
                 <table class="table table-striped">
                     <thead>

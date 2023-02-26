@@ -24,9 +24,7 @@
     <link rel="stylesheet" href="../css/icofont.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
     <!-- Medipro CSS -->
-    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
@@ -81,6 +79,7 @@
     <!-- End Header Area -->
     <!-- page content -->
     <div class="page-content">
+        <!-- right side include menu for move between website pages -->
         <div class="right-side">
             <div class="avatar d-flex justify-content-start align-items-center">
                 <div class="img ml-3">
@@ -101,12 +100,21 @@
                 </ul>
             </div>
         </div>
+        <!-- left side include page content -->
         <div class="left-side edit-profile" id="my-div">
+            <!-- page header -->
             <div class="header-page mb-5">
                 <h3 class="title">تعديل الملف الشخصي</h3>
                 <a href="./home.html"><i class="icofont-swoosh-right"></i></a>
             </div>
+            <!-- edit profile form -->
             <form class="form" method="" action="">
+                <h5>الصورة الشخصية</h5>
+                <div class="profile-image-container mb-4">
+                    <img id="profile-image" src="../img/author2.jpg" alt="Profile Image">
+                    <label for="file-upload" id="upload-button"><i class="icofont-camera"></i></label>
+                    <input type="file" id="file-upload" name="file-upload" accept="image/*">
+                </div>
                 <h5>معلومات الاتصال</h5>
                 <div class="row">
                     <div class="col-lg-6">
